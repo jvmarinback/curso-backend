@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS HTML</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <!-- recibe datos de tipo texto -->
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" placeholder="Ingrese su Nombre" autocomplete="on">
+        <br>
+        <!-- recibe datos contraseñas -->
+        <label for="pass">Contraseña</label>
+        <input type="password" id="pass" placeholder="Ingrese su contraseña">
+        <br>
+        <!-- recibe datos de tipo corres -->
+        <label for="mail">Correo</label>
+        <input type="email" id="mail" placeholder="Ingrese correo" required>
+        <!-- tipos de input -->
+        <!-- habilita el boton de enviar el formulario-->
+        <br>
+        <input type="submit">
+        <br>
+        <!-- permite tener una casilla de verificación -->
+        <input type="checkbox" required>
+        <label>acepta terminos y condiones</label>
+        <br>
+        <!-- permite seleccionar una opcion -->
+        <input type="radio">
+        <label>PHP</label>
+        <br>
+        <!-- permite seleccionar una fecha -->
+        <input type="date">
+        <br>
+        <!-- permite seleccionar un color -->
+        <label>ingrese su color favorito</label>
+        <input type="color">
+        <br>
+        <!-- crea un boton para asignarle un valor -->
+        <input type="button" value="boton 1">
+        <br>
+        <label>ingrese su edad</label>
+        <input type="number" placeholder="ingrese su edad">
+        <br>
+        <!-- crea un boton de buscar -->
+        <label>buscar</label>
+        <input type="search" placeholder="busqueda">
+        <br>
+        <!-- permite cargar archivos -->
+        <input type="file">
+        <br>
+        <textarea name="" id="" cols="30" rows="10" maxlength="150" placeholder="Dejanos tus comentarios :)"></textarea>
+        <br>
+        <br>
+        <h2>Seleccione lenguaje</h2>
+        <select name="" id="">
+            <option>PHP</option>
+            <OPtion>Javascrip</OPtion>
+            <option>Python</option>
+        </select>
+    </form>
+</body>
+</html>
